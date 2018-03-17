@@ -159,7 +159,7 @@ sudo python -m SimpleHTTPServer <LOCAL_PORT>
 where
   - `<LOCAL_PORT>` - the port of your service available locally.
 
-
+This web server just list files in current directory.
 
 - Open browser:
 ```
