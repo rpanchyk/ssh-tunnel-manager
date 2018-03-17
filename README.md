@@ -4,6 +4,8 @@ This project is aimed to instantiate a reliable SSH tunnel.
 It can be used to create a link to your private machine (for example, behind the NAT)
 through the public machine (server available from the internet).
 
+![ssh tunnel](docs/ssh-tunnel.png)
+
 ## Prerequisites
 
 - Private PC on Linux with SSH client installed
@@ -114,7 +116,7 @@ where
   - `<LOCAL_PORT>` - the local SSH tunnel port.
   - `<SSH_SERVER_USER>` - the user to login on remote SSH server.
   - `<SSH_SERVER_IP>` - SSH server address.
-  - `<SSH_SERVER_PORT>` - SSH server port (use `22` by default)
+  - `<SSH_SERVER_PORT>` - SSH server port (use `22` by default).
   - `<SSH_KEY_PATH>` - your generated SSK key.
 
 
@@ -138,7 +140,7 @@ where
   - `<LOCAL_PORT>` - the local SSH tunnel port.
   - `<SSH_SERVER_USER>` - the user to login on remote SSH server.
   - `<SSH_SERVER_IP>` - SSH server address.
-  - `<SSH_SERVER_PORT>` - SSH server port (use `22` by default)
+  - `<SSH_SERVER_PORT>` - SSH server port (use `22` by default).
   - `<SSH_KEY_PATH>` - your generated SSK key.
 
 Actually, it's not desired to be a root to execute the script, so change in your own.
