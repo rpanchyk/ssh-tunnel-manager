@@ -99,12 +99,12 @@ To use the script manually follow next steps.
 
 - Clone the repository:
 ```
-git clone https://github.com/acidtron/ssh-tunnel.git
+git clone https://github.com/acidtron/ssh-tunnel-manager.git
 ```
 
 - Move to the project directory:
 ```
-cd ssh-tunnel
+cd ssh-tunnel-manager
 ```
 
 - Run the command:
@@ -129,11 +129,11 @@ where
 To use the script in automatic mode perform actions described below.
 - Clone the repository:
 ```
-sudo git clone https://github.com/acidtron/ssh-tunnel.git /opt/ssh-tunnel
+sudo git clone https://github.com/acidtron/ssh-tunnel-manager.git /opt/ssh-tunnel-manager
 ```
 - Add entry to the `/etc/crontab` file:
 ```
-*/5 * * * * root /opt/ssh-tunnel/tun_manager.sh "<REMOTE_PORT>" "<LOCAL_PORT>" "<SSH_SERVER_USER>" "<SSH_SERVER_IP>" "<SSH_SERVER_PORT>" "<SSH_KEY_PATH>" >> /var/log/tun_manager.log
+*/5 * * * * root /opt/ssh-tunnel-manager/tun_manager.sh "<REMOTE_PORT>" "<LOCAL_PORT>" "<SSH_SERVER_USER>" "<SSH_SERVER_IP>" "<SSH_SERVER_PORT>" "<SSH_KEY_PATH>" >> /var/log/tun_manager.log
 ```
 where
   - `<REMOTE_PORT>` - the port of your service will be available on.
@@ -173,6 +173,6 @@ where
 ## Contributing
 You can change this script according to your modem device. This is just the idea to solve connection drops.
 
-Report bugs, request features, and suggest improvements [on Github](https://github.com/acidtron/ssh-tunnel/issues).
+Report bugs, request features, and suggest improvements [on Github](https://github.com/acidtron/ssh-tunnel-manager/issues).
 
-Or better yet, [open a pull request](https://github.com/acidtron/ssh-tunnel/compare) with the changes you'd like to see.
+Or better yet, [open a pull request](https://github.com/acidtron/ssh-tunnel-manager/compare) with the changes you'd like to see.
