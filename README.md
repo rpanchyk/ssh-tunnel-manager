@@ -169,6 +169,9 @@ where
   - `<PUBLIC_SERVER_IP>` - the address of your public server.
   - `<REMOTE_PORT>` - the port of your service will be available on.
 
+## Alternatives
+
+- [serveo](https://serveo.net)
 
 ## Contributing
 You can change this script according to your modem device. This is just the idea to solve connection drops.
