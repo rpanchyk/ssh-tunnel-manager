@@ -2,7 +2,7 @@
 
 This project is aimed to instantiate a reliable SSH tunnel.
 It can be used to create a link to your private machine (for example, behind the NAT)
-through the public machine (server available from the internet).
+from outside world through the public machine (server available from the internet).
 
 ![ssh tunnel](docs/ssh-tunnel.png)
 
@@ -99,7 +99,7 @@ To use the script manually follow next steps.
 
 - Clone the repository:
 ```
-git clone https://github.com/acidtron/ssh-tunnel-manager.git
+git clone https://github.com/rpanchyk/ssh-tunnel-manager.git
 ```
 
 - Move to the project directory:
@@ -119,7 +119,6 @@ where
   - `<SSH_SERVER_PORT>` - SSH server port (use `22` by default).
   - `<SSH_KEY_PATH>` - your generated SSK key.
 
-
 - To stop the SSH tunnel:
 ```
 ./tun_stop.sh "<REMOTE_PORT>" "<LOCAL_PORT>"
@@ -129,7 +128,7 @@ where
 To use the script in automatic mode perform actions described below.
 - Clone the repository:
 ```
-sudo git clone https://github.com/acidtron/ssh-tunnel-manager.git /opt/ssh-tunnel-manager
+sudo git clone https://github.com/rpanchyk/ssh-tunnel-manager.git /opt/ssh-tunnel-manager
 ```
 - Add entry to the `/etc/crontab` file:
 ```
@@ -176,6 +175,6 @@ where
 ## Contributing
 You can change this script according to your modem device. This is just the idea to solve connection drops.
 
-Report bugs, request features, and suggest improvements [on Github](https://github.com/acidtron/ssh-tunnel-manager/issues).
+Report bugs, request features, and suggest improvements [on Github](https://github.com/rpanchyk/ssh-tunnel-manager/issues).
 
-Or better yet, [open a pull request](https://github.com/acidtron/ssh-tunnel-manager/compare) with the changes you'd like to see.
+Or better yet, [open a pull request](https://github.com/rpanchyk/ssh-tunnel-manager/compare) with the changes you'd like to see.
